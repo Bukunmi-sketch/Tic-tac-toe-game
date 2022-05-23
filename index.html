@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bucz Multiplayer tic tac toe game</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <div id="bod" align="center">
+        <h1>Bucz Multiplayer tic tac toe <br> game </h1>
+             
+              <div id="note">
+                   <h><b>Next player :</b>
+                   <span id="display"> X </span>  </h>
+                    <p><b>Winners Notification:</b>
+                   <span id="winner"></span> </p>
+              </div>
+
+              <input type="reset" onclick="aler()"  value="Tap to Read instructions">
+            
+       <div id="tab">
+        
+            
+
+             <table align="center">
+             <tr>
+             <td><input type="button"  id="aey" onclick="val(this)" value=""> </td>
+             <td><input type="button"  id="bey" onclick="val(this)" value=""></td>
+             <td><input type="button"  id="cey" onclick="val(this)" value=""></td>
+                </tr>
+                <tr>
+             <td><input type="button" id="dey" onclick="val(this)" value=""></td>
+             <td><input type="button" id="eey" onclick="val(this)" value=""></td>
+             <td><input type="button" id="fey" onclick="val(this)" value=""></td>
+                  </tr>
+              <tr>
+             <td><input type="button" id="gey" onclick="val(this)" value=""></td>
+             <td><input type="button" id="hey" onclick="val(this)" value=""></td>
+             <td><input type="button" id="iey" onclick="val(this)"  value=""></td>
+             </tr> 
+             </table>
+        </div>  
+        <button id="clr" onclick="clearb('')"><b> NEW GAME</b></button>
+        
+    </div>
+        <script src="index.js"></script>
+
+</body> 
+</html>
